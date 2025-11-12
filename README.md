@@ -6,5 +6,6 @@ Repositório da turma de GCMS do IFPE-Recife, 2025.2!
 
 Coloque seu nome abaixo se você é um dos colaboradores do repositório:
 
-- Marina Costa (@mcdssd, dona)  
+- Marina Costa (@mcdssd, dona)
+- Ramide Dantas (@ramidedantas)
  
