@@ -37,5 +37,14 @@ class WebAppApplicationTests {
 
 	}
 
+	@Test
+	public void shouldReturnHotfixMessage() throws Exception {
+		this.mockMvc.perform(get("/homecontroller"))
+
+				.andDo(print()).andExpect(status().isOk())
+				.andExpect(content()
+						.string(containsString("Hello, homecontroller!")));
+	}
+
     //ESTOU FAZENDO ESSE COMENTARIO PARA PODER COMMITAR A PARTE 3 PASSO 3
 }
